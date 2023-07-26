@@ -1,7 +1,12 @@
 # A VERY BASIC CPP PACKAGE MANAGER
 
 - Make sure to have a main.cpp file in the cmd folder
-- run by using
+- install
+
+    ```bash
+    cargo install cppr
+    ```
+- run
 
     ```bash 
     cppr
