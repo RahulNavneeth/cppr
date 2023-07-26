@@ -13,5 +13,5 @@
     ```
 
 </br>
-<b>PS</b> : I NEEDED THIS EXTENSILY </br></br>
+<b>PS</b> : I NEEDED THIS EXTENSIVELY </br></br>
 <b>NOTE</b> : UNDER ACTIVE DEVELOPMENT
