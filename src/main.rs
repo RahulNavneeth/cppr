@@ -1,5 +1,6 @@
 use std::io::Result;
 use std::process::Command;
+use std::time::Instant;
 
 fn main() -> Result<()> {
     if std::path::Path::new("main.cpp").exists() {
@@ -12,9 +13,9 @@ fn main() -> Result<()> {
 
         if let Ok(status) = compile_status {
             if status.success() {
-                println!();
+                let instance = Instant::now();
                 execute_main_executable();
-                println!();
+                println!("{:.2?}", instance.elapsed());
             } else {
                 println!("COMPILATION FAILED.");
             }
