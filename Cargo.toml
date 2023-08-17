@@ -1,10 +1,12 @@
 [package]
 name = "cppr"
 authors = ["Rahul M. Navneeth <rahulmnavneeth@gmail.com>"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "A simple C++ package manager"
 repository = "https://github.com/RahulNavneeth/cppr"
 
 [dependencies]
+chrono = "0.4.26"
+rand = "0.8.4"
